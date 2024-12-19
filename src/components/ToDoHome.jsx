@@ -22,7 +22,7 @@ const ToDoHome = () => {
   const [editDescription, setEditDescription] = useState("");
 
   // BackEnd API
-  const Url = "https://todoapp-backend-dc2n.onrender.com/todo";
+  const Url = "https://todoapp-backend-dc2n.onrender.com";
 
   // Post method
   const handleSubmit = async () => {
