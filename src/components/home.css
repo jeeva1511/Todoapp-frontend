@@ -1,0 +1,25 @@
+.todo{
+    border: 2px solid rgb(27, 59, 220);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.butTon{
+    width: 50%;
+   margin: auto;
+  /* background-color: rgb(0, 180, 245); */
+  font-weight: bolder;
+}
+img{
+    width: 20px;
+    object-fit: cover;
+}
+.tlist{
+    background-color: aqua;
+}
+body{
+    background: linear-gradient(190deg,  rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
