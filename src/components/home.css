@@ -20,6 +20,9 @@ img{
 .tlist{
     background-color: aqua;
 }
-body{
-    background: linear-gradient(190deg,  rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+body {
+    background: linear-gradient(190deg, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-repeat:no-repeat; /* Ensure no repeat */
+    background-size: cover; /* Stretch to cover the entire area */
+    box-sizing: border-box;
 }
